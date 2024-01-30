@@ -1661,7 +1661,7 @@ SR.SFxDocExt_NoMetadataSection5        ));
 
             protected override string NewBaseAddress => _newBaseAddress;
 
-            protected override bool RemoveBaseAddress => true;
+            protected override bool RemoveBaseAddress => false;
 
             public override WriteFilter CloneWriteFilter()
             {
